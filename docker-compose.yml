@@ -1,0 +1,10 @@
+version: '3'  # Corrected the version value
+services:
+  postgres:
+    image: postgres  # Corrected the image name
+    environment:
+      POSTGRES_USER: postgres  # Corrected the environment variable syntax
+      POSTGRES_PASSWORD: Harsh@pg23  # Corrected the environment variable syntax
+    ports:
+      - '5432:5432'  # Corrected the port mapping syntax
+
